@@ -1,0 +1,104 @@
+/*首页*/
+.back{width:640px;height:1008px; margin:0 auto; background:url(../img/bg01.jpg) 0px 0px no-repeat; position:relative; z-index:1;}
+.con1-top{width:640px; height:271px; background:url(../img/bg02.jpg) 0px 0px no-repeat;}
+.con1-word{width:509px; height:198px; background:url(../img/msyl.png) 0px 0px no-repeat; margin:0 auto;}
+.con1-w{width:433px; height:97px; color:#fff; text-align:center; line-height:97px; font-style:italic; font-weight:bold; font-size:40px; cursor:pointer; background:url(../img/btn01.png) 0px 0px no-repeat; margin:20px auto;}
+#con1-option1{ margin:45px auto 15px;}
+#con1-option2{ margin: 0 auto 60px;}
+.con1-s{text-align:center; color:#013799; font-style:italic; font-size:30px; text-decoration:underline; font-weight:bold; cursor:pointer;}
+.con1-sm{width:640px; height:1008px; margin:0 auto; position:absolute; top:0; left:0; z-index:0; display:none;}
+.sm-back{width:640px; height:1008px; background:#000; opacity:0.5; filter:alpah(opacity=50); position:absolute; top:0; left:0; z-index:-1;}
+.sm-con{width:522px; /*height:637px;*/ border:8px solid #00286E; border-radius:20px;  background:#fff; margin:120px auto 0px; padding:35px 30px; }
+.sm-con h4{color:#012971; font-size:30px; height:60px; text-align:60px;}
+.sm-con p{font-size:24px; text-indent:2em; line-height:41px;}
+.sm-btn{width:433px; height:97px; margin:26px auto 0px; color:#FCFEFC; font-weight:bold; font-size:50px; text-align:center; line-height:97px; background:url(../img/btn01.png) 0 0 no-repeat; font-style:italic; cursor:pointer;}
+.con1-confirm{width:640px; height:1008px; margin:0 auto; position:absolute; top:0; left:0; z-index:0; display:none;}
+.confirm-con{width:552px; height:464px; border:8px solid #00286E; border-radius:20px; margin:130px auto 0px; background:#fff; padding:30px 16px;}
+.confirm-con p{height:75px; text-align:center; line-height:70px; color:#002A72; font-size:38px; font-weight:bold;}
+/*抽奖页*/
+#chj h3{height:80px; font-size:54px; font-weight:bold; text-align:center; color:#002A72; margin-top:20px; line-height:80px;}
+#chj p{color:#696661; font-size:28px; text-align:center; }
+#chj ul{width:615px; height:560px; margin:20px auto 0px;}
+#chj ul li{float:left; margin:1.5px 3px;}
+/*#chj ul li:hover{}*/ /* transform: rotateX(0deg) rotateY(360deg) translateZ(0px); -webkit-transition: -webkit-transform 2s; -moz-transition: -moz-transform 2s; transition: transform 0s; */
+#chj ul img{width:199px; height:277px; }
+
+/*抽奖结果1*/
+#cjjg1 h2{height:80px; line-height:80px; color:#02276C; font-size:40px; text-align:center; }
+.con3-con{width:596px; height:479px;background:#fff; margin:0px auto;}
+.con3-con p{color:#666666; text-align:center; height:63px; line-height:60px; font-size:26px;}
+.con3-con h3{width:346px; height:75px; margin:0 auto; color:#FFF; background:url(../img/bg03.jpg) 0 0 no-repeat; font-size:34px; letter-spacing:59px; padding:0 36px; line-height:75px;}
+.con3-con div{width:485px; height:294px; margin:40px auto 0px;}
+.con3-con div img{width:485px; height:294px; }
+.con3-p1{color:#00287A; font-size:30px; padding:0px 20px; font-weight:bold; margin-top:20px;}
+.con3-p2{color:#64666B; font-size:25px; padding:0px 20px;}
+.con3-share{color:#64666B; height:68px;font-size:24px; padding:0 60px 0px 73px; line-height:68px; overflow:hidden;}
+/*.con3-share span{display:inline-block; float:right; width:68px; height:68px; margin-left:27px; }*/
+.con3-share div{float:left;}  
+#shares span{width:68px; height:68px!important; padding-left: 0px!important; margin-left:27px;}
+#shares .jiathis_button_weixin .jtico{background:url(../img/weixin.png) 0px 0px no-repeat;}
+#shares .jiathis_button_tsina .jtico{background:url(../img/xlwb.png) 0px 0px no-repeat;}
+#shares .jiathis_button_tqq .jtico{background:url(../img/txwb.png) 0px 0px no-repeat;}
+.wx-share {width:640px;height:1008px; position:absolute; top:0px; left:0px; display:none;} 
+.share-back{width:640px;height:1008px;background:rgba(0,0,0,0.5); } 
+.wx-share img{position:absolute; top:0px; left:0px; }
+/*抽奖结果页2*/
+#y20{width:560px; padding:0 40px;}
+#y20 h2{height:120px; font-size:55px; font-weight:bold; color:#C60026; line-height:105px; text-align:center; }
+#y20 .con3-share{padding: 0 10px 0px 13px;}
+#y10{width:560px; padding:0 40px;}
+#y10 h2{height:120px; font-size:55px; font-weight:bold; color:#C60026; line-height:105px; text-align:center; }
+#y10 .con3-share{padding: 0 10px 0px 13px;}
+#cjjg2{width:560px; padding:0 40px;}
+#cjjg2 h2{height:120px; font-size:55px; font-weight:bold; color:#C60026; line-height:105px; text-align:center; }
+.con4-tip1,.con4-tip2{color:#6B6B6A; font-size:28px; padding:0 5px;}
+.con4-jg{margin:20px auto 25px;}
+.con4-jg img{width:564px; height:321px;}
+.con4-input{width:560px; height:84px; margin:18px auto 15px; background:url(../img/shuru2.jpg) 0  0 no-repeat; position:relative;}
+.con4-input input{width:444px; height:68px; position:absolute; top:0px; right:0px; border:none; padding:8px 10px; font-size:35px;}
+#cjjg2 .con3-share{padding: 0 25px 0px 73px; padding-left:20px; margin-top:25px;}
+
+/*未中奖页面*/
+#con4 h3{font-size:60px; color:#C30C14; text-align:center; height:175px; line-height:145px;}
+#con4 p{font-size:38px; color:#666; padding:0px 29px; text-align:left; }
+#con4 p var{ color:#0D3477; font-weight:bold; font-size:40px;}
+
+/*启辰开回家页面*/
+#home h2{width:312px; height:75px; background:url(../img/qckhj.png) 0px 95px no-repeat; padding:95px 0px 30px 0px;  margin:0 auto;}
+#home p{padding:0px 21px; font-size:30px;}
+#sr-name{width:560px; height:84px; margin:18px auto 15px; background:url(../img/shuru1.jpg) 0  0 no-repeat; position:relative;}
+#home input{color:#B2B2B2;}
+#home .con1-w{margin-top:40px; margin-bottom:30px;}
+#home .con1-s{margin-bottom:45px;}
+
+#y30-succeed{/*display:block;*/}
+#y30-succeed h4{font-size:60px; text-align:center; height:110px; line-height:90px; margin-top:40px;}
+#y30-succeed p{text-indent:0em; font-size:35px; margin-bottom:40px;}
+#y20-succeed{/*display:block;*/}
+#y20-succeed h4{font-size:60px; text-align:center; height:110px; line-height:90px; margin-top:40px;}
+#y20-succeed p{text-indent:0em; font-size:35px; margin-bottom:40px;}
+#y10-succeed{/*display:block;*/}
+#y10-succeed h4{font-size:60px; text-align:center; height:110px; line-height:90px; margin-top:40px;}
+#y10-succeed p{text-indent:0em; font-size:35px; margin-bottom:40px;}
+/*活动规则*/
+#con1-gz{width:640px; height:1008px; margin:0 auto; position:absolute; top:0; left:0; z-index:0; display:none;}
+#con1-gz .gz-back{width:640px; height:1008px; background:#000; opacity:0.5; filter:alpah(opacity=50); position:absolute; top:0; left:0; z-index:-1;}
+#con1-gz .gz-con{width:522px;  border:8px solid #00286E; border-radius:20px;  background:#fff; margin:48px auto 0px; padding:35px 30px; }
+#con1-gz .gz-con h4{color:#012971; font-size:30px; height:60px; text-align:60px;}
+#con1-gz .gz-con p{font-size:25px; text-indent:2em; line-height:44px; text-indent: -1em; padding:0px 0px 0px 21px;}
+#con1-gz .gz-btn{width:433px; height:97px; margin:26px auto 0px; color:#FCFEFC; font-weight:bold; font-size:50px; text-align:center; line-height:97px; background:url(../img/btn01.png) 0 0 no-repeat; font-style:italic; cursor:pointer;}
+
+#con1-succeed{/*display:block;*/}
+#con1-succeed h4{font-size:60px; text-align:center; height:110px; line-height:90px; margin-top:40px;}
+#con1-succeed p{text-indent:0em; font-size:35px; margin-bottom:40px;}
+/*提示不能重复抽奖*/
+#sorry h3{font-size:60px; color:#C30C14; text-align:center; height:175px; line-height:145px;}
+#sorry p{font-size:35px; color:#666; padding:0px 40px; text-align:left; }
+#sorry p var{ color:#0D3477; font-weight:bold; font-size:40px;}
+
+
+
+
+
+
+
